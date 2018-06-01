@@ -1436,7 +1436,7 @@ Hide # Minimize junk instead of hiding (if "Show") %TC-Junkable
 Show # $Currency->Low->T1 %H5 %TB-Currency-SilverCoin
 	Class Currency
 	BaseType "Silver Coin"
-	SetFontSize 45
+	SetFontSize 100
 	SetTextColor 45 50 130 255           # TEXTCOLOR:	 Silver Coin
 	SetBorderColor 0 0 0                 # BORDERCOLOR:	 Neutral T1.5
 	SetBackgroundColor 210 178 135 255   # BACKGROUND:	 Currency T5
@@ -1444,7 +1444,7 @@ Show # $Currency->Low->T1 %H5 %TB-Currency-SilverCoin
 Show # $Currency->Low->T1 %H5 %TB-Currency-T4
 	Class Currency
 	BaseType "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Glassblower's Bauble"
-	SetFontSize 45
+	SetFontSize 100
 	SetTextColor 0 0 0 255               # TEXTCOLOR:	 High Special Base
 	SetBorderColor 0 0 0 200             # BORDERCOLOR:	 Neutral T2
 	SetBackgroundColor 210 178 135 255   # BACKGROUND:	 Currency T5
@@ -1452,7 +1452,7 @@ Show # $Currency->Low->T1 %H5 %TB-Currency-T4
 Show # $Currency->Low->T2 %H4 %TB-Currency-T5
 	Class Currency
 	BaseType "Orb of Transmutation" "Blacksmith's Whetstone" "Alchemy Shard"
-	SetFontSize 45
+	SetFontSize 100
 	SetTextColor 170 158 130             # TEXTCOLOR:	 Currency Cosmetic
 	SetBorderColor 190 178 135 180       # BORDERCOLOR:	 Transmutation
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
@@ -1460,7 +1460,7 @@ Show # $Currency->Low->T2 %H4 %TB-Currency-T5
 Show # $Currency->Scroll->Portal %RF1 %H3 %TB-Currency-T7
 	Class Currency
 	BaseType "Portal Scroll"
-	SetFontSize 36
+	SetFontSize 100
 	SetTextColor 170 158 130 220         # TEXTCOLOR:	 Currency Cosmetic 2
 	SetBorderColor 30 50 100 255         # BORDERCOLOR:	 Portal
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
@@ -1468,7 +1468,7 @@ Show # $Currency->Scroll->Portal %RF1 %H3 %TB-Currency-T7
 Show # $Currency->Low->T3 %H2 %TB-Currency-T6
 	Class Currency
 	BaseType "Armourer's Scrap" "Orb of Augmentation" "Transmutation Shard" "Alteration Shard"
-	SetFontSize 40
+	SetFontSize 100
 	SetTextColor 170 158 130 220         # TEXTCOLOR:	 Currency Cosmetic 2
 	SetBorderColor 75 75 75 255          # BORDERCOLOR:	 Currency Augment
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
@@ -1481,6 +1481,7 @@ Show # $Currency->Scroll->Portal %RF1 %H2 %TB-Currency-T8
 	SetBorderColor 100 50 30 255         # BORDERCOLOR:	 Wisdom
 	SetBackgroundColor 0 0 0 255         # BACKGROUND:	 Neutral T2
 
+	
 #===============================================================================================================
 # [[0900]] OVERRIDE AREA 2 - Override the default rare rulesets here
 #===============================================================================================================
